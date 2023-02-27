@@ -1,0 +1,32 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Nabla&family=Press+Start+2P&family=Rammetto+One&family=Ruslan+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Nabla&family=Press+Start+2P&family=Rammetto+One&display=swap');
+@font-face {
+    font-family: gg;
+    src: url(../fontes/Big\ Storm\ Stencil.ttf);
+}
+:root{
+     --cor1: #8C3604;
+     --cor2: #F27405;
+     --cor3: #F2C53D;
+}
+
+h1{
+    /* color: #F27405; */
+    /* color: rgb(242, 159, 95) */
+   /* background-image: linear-gradient(red,yellow,green); */
+
+   color: var(--cor1);
+   font-family: 'Luckiest Guy', cursive;
+}
+h2{
+    font-family: 'Nabla', cursive;
+}
+p{
+    font-family: 'Ruslan Display', cursive;
+}
+
+h3{
+    font-family: gg;
+}

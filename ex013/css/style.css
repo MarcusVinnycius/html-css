@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Nabla&family=Press+Start+2P&family=Rammetto+One&family=Ruslan+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Nabla&family=Press+Start+2P&family=Rammetto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+#titulo2{
+    color: black;
+    font-family: 'Ruslan Display', cursive;
+}
+#titulo1{
+    color: red;
+    font-family: 'Ruslan Display', cursive;
+}
+.subtitulo1{
+    color: orange;
+    font-family: 'Ruslan Display', cursive;
+}
+.subtitulo2{
+    color: blue;
+    font-family: 'Ruslan Display', cursive;
+}
+
+p{
+    font-family: 'Righteous', cursive;
+}
+.destaque1{
+    color: chartreuse;
+}
+.destaque2{
+    color: crimson;
+}

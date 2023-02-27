@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+#static{
+    border: 1px solid black;
+    height: 20px;
+    left: 50px;
+    position: static;
+}
+#relative{
+    border: 1px solid black;
+    height: 20px;
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+#fixed{
+    border: 1px solid black;
+    background-color: red;
+    height: 20px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+#pai{
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background-image: url("../Imagens/codehtml1226.jpg");
+    background-size: cover;
+}
+#filho{
+    border: 1px solid black;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.733);
+    height: 100%;
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    display: none;
+}
+#pai:hover > #filho{
+    display: block;
+}
+
